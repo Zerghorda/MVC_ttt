@@ -6,15 +6,15 @@ export default class Mezo {
     this.#index = index;
     this.szuloElem = szuloElem;
     this.mezoKiir();
-    this.gombELEM = $(".container:last-child");
+    this.gombELEM = $(".card:last-child");
     if (this.#jel === " ") {
       this.esemenyKezelo();
     }
   }
   mezoKiir() {
     this.szuloElem.append(
-      `<div class="container border border-2 border-info col-lg-4">
-            <h2 class="text-center">${this.#jel}</h2>
+      `<div class="card border border-2 border-info col-lg-4">
+            <h2 class="card-text text-center">${this.#jel}</h2>
            </div>`
     );
   }

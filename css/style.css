@@ -4,7 +4,7 @@ body{
 header{
     color: aqua;
 }
-.container{
+.card{
     background-color: rgb(41, 39, 39);
     height: 200px;
     color: aquamarine;
