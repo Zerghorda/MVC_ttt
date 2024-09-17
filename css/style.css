@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+header{
+    color: aqua;
+}
+.container{
+    background-color: rgb(41, 39, 39);
+    height: 200px;
+    color: aquamarine;
+}
+footer{
+    color: aqua;
+}
