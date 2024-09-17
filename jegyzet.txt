@@ -1,3 +1,6 @@
 mvc:
 Model-> felelős a megjelenítő adatok meg jelenítésének
 Controller-> a modelt és a adatokat közöt kommunikációt tart felt
+palya->létrehozza a pályat mezo class hívássál
+mezó-> egy mezót csinál
+main-> controllert hívjuk
